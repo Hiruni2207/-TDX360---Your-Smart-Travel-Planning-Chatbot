@@ -60,8 +60,11 @@ pip install -r requirements.txt
 
 ### 4️⃣ Set Up Environment Variables
 GROQ_API_KEY=our_groq_api_key_here
+(You can get an API key through this site- [Groq API](https://groq.com/))
 
 ### 5️⃣ Run the Application
+bash
+
 streamlit run app.py
 
 ### 6️⃣ Access the App
