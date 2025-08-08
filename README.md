@@ -48,10 +48,11 @@ cd tdx360-travel-chatbot
 ### 2️⃣ Create a Virtual Environment 
 bash
 python -m venv venv
-# Activate the environment
-# Windows:
+
+Activate the environment
+- **Windows**:
 venv\Scripts\activate
-# Mac/Linux:
+- **Mac/Linux**:
 source venv/bin/activate
 
 ### 3️⃣ Install Dependencies
