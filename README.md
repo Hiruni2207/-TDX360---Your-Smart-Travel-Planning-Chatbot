@@ -46,7 +46,7 @@ The chatbot is deployed on **Streamlit Cloud**, which serves as both the **front
 
 ---
 
-### 📦 Deployment Architecture
+## 📦 Deployment Architecture
 
 - **User**: Enters a travel-related query or selects a quick option.
 - **Streamlit UI (Frontend + Backend)**: `app.py` manages the interface and passes messages to the backend.
@@ -69,7 +69,7 @@ The chatbot is deployed on **Streamlit Cloud**, which serves as both the **front
 
 ---
 
-### 🌍 Live Application
+## 🌍 Live Application
 You can access the chatbot here:  
 🔗 **[TDX360 Travel Chatbot](https://4xkfeahyi9bzsmnfiex4bh.streamlit.app/)**
 
