@@ -36,6 +36,38 @@ It helps travelers with destination recommendations, hotel suggestions, itinerar
 - **`README.md`** → Documentation for the project (this file).  
 
 ---
+## 🖥 How to Run the Code Locally
+
+Follow these steps to set up and run the TDX360 Travel Chatbot on our machine:
+
+### 1️⃣ Clone the Repository
+bash
+git clone https://github.com/Hiruni2207/-TDX360---Your-Smart-Travel-Planning-Chatbot.git
+cd tdx360-travel-chatbot
+
+### 2️⃣ Create a Virtual Environment 
+bash
+python -m venv venv
+# Activate the environment
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+### 3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+### 4️⃣ Set Up Environment Variables
+GROQ_API_KEY=our_groq_api_key_here
+
+### 5️⃣ Run the Application
+streamlit run app.py
+
+### 6️⃣ Access the App
+Once the app starts, Streamlit will display a local URL (e.g., http://localhost:8501) in the terminal.
+Open it in your browser to start chatting.
+
+---
 
 ## 🚀 Model Deployment
 
