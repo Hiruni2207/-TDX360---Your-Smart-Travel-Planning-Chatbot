@@ -35,6 +35,8 @@ It helps travelers with destination recommendations, hotel suggestions, itinerar
 - **`.gitignore`** → Ensures sensitive or unnecessary files are not tracked by Git.  
 - **`README.md`** → Documentation for the project (this file).  
 
+---
+
 ## 🚀 Model Deployment
 
 The **TDX360 Travel Chatbot** is deployed using **Streamlit Community Cloud** and powered by **Groq API** for AI responses.
@@ -45,6 +47,8 @@ You can access the chatbot here:
 
 This project does not require hosting a separate AI model server — it uses the **Groq API** to run powerful LLMs in the cloud.  
 The chatbot is deployed on **Streamlit Cloud**, which serves as both the **frontend** and the **backend**.
+
+---
 
 ### 📦 Deployment Architecture
 
