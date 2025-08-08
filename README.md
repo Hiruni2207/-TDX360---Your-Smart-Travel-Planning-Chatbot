@@ -41,10 +41,6 @@ It helps travelers with destination recommendations, hotel suggestions, itinerar
 
 The **TDX360 Travel Chatbot** is deployed using **Streamlit Community Cloud** and powered by **Groq API** for AI responses.
 
-### 🌍 Live Application
-You can access the chatbot here:  
-🔗 **[TDX360 Travel Chatbot](https://4xkfeahyi9bzsmnfiex4bh.streamlit.app/)**
-
 This project does not require hosting a separate AI model server — it uses the **Groq API** to run powerful LLMs in the cloud.  
 The chatbot is deployed on **Streamlit Cloud**, which serves as both the **frontend** and the **backend**.
 
@@ -72,6 +68,10 @@ The chatbot is deployed on **Streamlit Cloud**, which serves as both the **front
    - On Streamlit Cloud, the key is stored in **Secrets** for security.
 
 ---
+
+### 🌍 Live Application
+You can access the chatbot here:  
+🔗 **[TDX360 Travel Chatbot](https://4xkfeahyi9bzsmnfiex4bh.streamlit.app/)**
 
 
 
