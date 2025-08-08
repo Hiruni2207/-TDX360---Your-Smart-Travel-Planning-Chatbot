@@ -27,3 +27,13 @@ It helps travelers with destination recommendations, hotel suggestions, itinerar
 
 ## 📂 Project Structure
 
+**Folder/Files Explanation:**
+- **`app.py`** → Handles the Streamlit interface, quick option buttons, and chat display.  
+- **`chatbot.py`** → Contains the function to send and receive messages from Groq API.  
+- **`requirements.txt`** → All required Python packages for running the project.  
+- **`.env`** → Stores sensitive API keys (never push this file to GitHub).  
+- **`.gitignore`** → Ensures sensitive or unnecessary files are not tracked by Git.  
+- **`README.md`** → Documentation for the project (this file).  
+
+
+
