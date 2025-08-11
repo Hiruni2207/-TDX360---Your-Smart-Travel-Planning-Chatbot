@@ -5,7 +5,7 @@ It helps travelers with destination recommendations, hotel suggestions, itinerar
 
 ---
 
-## 📌 Features
+## Features
 
 -  **Plan Itineraries** – Create detailed travel plans instantly.
 -  **Find Hotels** – Search for hotels within your budget.
@@ -16,7 +16,7 @@ It helps travelers with destination recommendations, hotel suggestions, itinerar
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** [Streamlit](https://streamlit.io/)
 - **Backend AI:** [Groq API](https://groq.com/)
@@ -25,7 +25,7 @@ It helps travelers with destination recommendations, hotel suggestions, itinerar
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 **Folder/Files Explanation:**
 - **`app.py`** → Handles the Streamlit interface, quick option buttons, and chat display.  
@@ -36,16 +36,16 @@ It helps travelers with destination recommendations, hotel suggestions, itinerar
 - **`README.md`** → Documentation for the project (this file).  
 
 ---
-## 🖥 How to Run the Code Locally
+## How to Run the Code Locally
 
 Follow these steps to set up and run the TDX360 Travel Chatbot on our machine:
 
-### 1️⃣ Clone the Repository
+### 1️. Clone the Repository
 bash
 git clone https://github.com/Hiruni2207/-TDX360---Your-Smart-Travel-Planning-Chatbot.git
 cd tdx360-travel-chatbot
 
-### 2️⃣ Create a Virtual Environment 
+### 2️. Create a Virtual Environment 
 bash
 python -m venv venv
 
@@ -55,25 +55,25 @@ venv\Scripts\activate
 - **Mac/Linux**:
 source venv/bin/activate
 
-### 3️⃣ Install Dependencies
+### 3️. Install Dependencies
 pip install -r requirements.txt
 
-### 4️⃣ Set Up Environment Variables
+### 4️. Set Up Environment Variables
 GROQ_API_KEY=our_groq_api_key_here
 (You can get an API key through this site- [Groq API](https://groq.com/))
 
-### 5️⃣ Run the Application
+### 5️. Run the Application
 bash
 
 streamlit run app.py
 
-### 6️⃣ Access the App
+### 6️. Access the App
 Once the app starts, Streamlit will display a local URL (e.g., http://localhost:8501) in the terminal.
 Open it in your browser to start chatting.
 
 ---
 
-## 🚀 Model Deployment
+## Model Deployment
 
 The **TDX360 Travel Chatbot** is deployed using **Streamlit Community Cloud** and powered by **Groq API** for AI responses.
 
@@ -82,7 +82,7 @@ The chatbot is deployed on **Streamlit Cloud**, which serves as both the **front
 
 ---
 
-## 📦 Deployment Architecture
+## Deployment Architecture
 
 - **User**: Enters a travel-related query or selects a quick option.
 - **Streamlit UI (Frontend + Backend)**: `app.py` manages the interface and passes messages to the backend.
@@ -105,7 +105,7 @@ The chatbot is deployed on **Streamlit Cloud**, which serves as both the **front
 
 ---
 
-## 🌍 Live Application
+## Live Application
 You can access the chatbot here:  
 🔗 **[TDX360 Travel Chatbot](https://4xkfeahyi9bzsmnfiex4bh.streamlit.app/)**
 
