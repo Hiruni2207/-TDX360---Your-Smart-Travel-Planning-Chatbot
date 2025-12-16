@@ -12,7 +12,7 @@ It helps travelers with destination recommendations, hotel suggestions, itinerar
 -  **Best Time to Visit** – Get the optimal travel seasons for any destination.
 -  **Budget Travel Tips** – Receive money-saving advice for your trip.
 -  **Interactive Chat Interface** – Ask any travel-related question.
--  **Model Choice** – Switch between `llama3-8b-8192` and `mixtral-8x7b-32768`.
+-  **Model Choice** – `llama-3.1-8b-instant`.
 
 ---
 
@@ -87,7 +87,7 @@ The chatbot is deployed on **Streamlit Cloud**, which serves as both the **front
 - **User**: Enters a travel-related query or selects a quick option.
 - **Streamlit UI (Frontend + Backend)**: `app.py` manages the interface and passes messages to the backend.
 - **Groq API**: Handles requests and sends them to the chosen AI model.
-- **AI Model (Cloud)**: Processes the request using `llama3-8b-8192` or `mixtral-8x7b-32768`.
+- **AI Model (Cloud)**: Processes the request using `llama-3.1-8b-instant`.
 - **Response**: The generated answer is returned to the Streamlit app and displayed in the chat.
 
 
@@ -96,8 +96,7 @@ The chatbot is deployed on **Streamlit Cloud**, which serves as both the **front
    - `chatbot.py` sends user messages to Groq API and retrieves AI-generated travel responses.
 
 2. **Groq API Models**  
-   - **llama3-8b-8192** → Fast and cost-efficient, ideal for most queries.  
-   - **mixtral-8x7b-32768** → Handles larger context windows for long conversations.  
+   - **llama-3.1-8b-instant** → Fast and cost-efficient, ideal for most queries.  
 
 3. **Environment Variables**  
    - API key stored in `.env` file locally.
