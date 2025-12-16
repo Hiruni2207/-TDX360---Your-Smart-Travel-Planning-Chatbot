@@ -12,7 +12,7 @@ if not groq_api_key:
 # Initialize Groq client
 client = Groq(api_key=groq_api_key)
 
-def get_response_from_groq(user_input, chat_history, model="llama3-8b-8192"):
+def get_response_from_groq(user_input, chat_history, model="llama-3.1-8b-instant"):
     """
     Send the conversation (chat_history + new message) to Groq API
     and return the assistant's reply.
