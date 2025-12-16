@@ -10,12 +10,12 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 if "model_choice" not in st.session_state:
-    st.session_state.model_choice = "llama3-8b-8192"
+    st.session_state.model_choice = "llama-3.1-8b-instant"
 
 # ---------------- SIDEBAR ----------------
 with st.sidebar:
     st.header("⚙️ Settings")
-    st.session_state.model_choice = st.selectbox("Choose AI Model", ["llama3-8b-8192", "mixtral-8x7b-32768"])
+    st.session_state.model_choice = "llama-3.1-8b-instant"
     if st.button("🗑 Clear Chat"):
         st.session_state.chat_history = []
         st.rerun()
